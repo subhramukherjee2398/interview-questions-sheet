@@ -7,4 +7,21 @@
 6.what is scope?(RdNotes)
 7.Defination of Map method with example?(RdNotes)
 8.Defination of Filter method with example?(RdNotes)
-9.
+9.Defination of Reduce method with example?(RdNotes)
+10.Write Polyfill for Map method?(Polyfills\mapPOly.js)
+11.Write Polyfill for Filter method?(Polyfills\filterpoly.js)
+12.Write Polyfill for Filter method?(Polyfills\reducePoly.js)
+13.Write Polyfill for ForEach method?(Polyfills\foreachPoly.js)
+14.Map vs ForEach?(RdNotes) (modify,return and chaining)
+15.
+let students = [
+  { name: "aaa", roll: 5, marks: 80 },
+  { name: "b", roll: 15, marks: 20 }, 
+  { name: "cc", roll: 25, marks: 30 }, 
+  { name: "dd", roll: 10, marks: 60 },
+  { name: "Eio", roll: 1, marks: 100 },
+];
+
+a.return students name in "Capital Letter":
+b.rerturns those student details have more than 50 marks:
+c.
