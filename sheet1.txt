@@ -1,0 +1,10 @@
+
+1.What is diference between var ,let and const ? (prepNotes)
+2.what is Varible legal and ilegal shawdoing? (prepNotes)
+3.What is the initializer of const?
+4.what is execution context?(prepNotes)
+5.what is Hoisting?(prepNotes)
+6.what is scope?(RdNotes)
+7.Defination of Map method with example?(RdNotes)
+8.Defination of Filter method with example?(RdNotes)
+9.
