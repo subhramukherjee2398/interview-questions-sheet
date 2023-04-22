@@ -13,7 +13,7 @@
 12.Write Polyfill for Filter method?(Polyfills\reducePoly.js)
 13.Write Polyfill for ForEach method?(Polyfills\foreachPoly.js)
 14.Map vs ForEach?(RdNotes) (modify,return and chaining)
-15.
+15.(RoadsideCoder jAVASCRIPT\Qns1.js)
 let students = [
   { name: "aaa", roll: 5, marks: 80 },
   { name: "b", roll: 15, marks: 20 }, 
@@ -24,4 +24,21 @@ let students = [
 
 a.return students name in "Capital Letter":
 b.rerturns those student details have more than 50 marks:
-c.
+c.rerturns  those student details have more than 40 marks & rollnumber > 10:
+d.sum of marks of all students:
+e.return only name of the students who scrore > 50:
+f.Return total marks of the students with marks > 60  and afetr added 20 marks to those marks will be < 60:
+16.Function Declaration/Declaration vs Function Expression?(RdNotes)
+17.First class Function?(RdNotes)
+18.Parameter vs Arguments?(RdNotes)
+19.Output?(RoadsideCoder jAVASCRIPT\Qns2.js)
+
+(function(x){
+    return (function(y){
+        console.log(x)
+    })(2)
+})(1)
+
+20.what is closures?(prepNotes)
+21.what is lexical scope?(prepNotes)
+22.
