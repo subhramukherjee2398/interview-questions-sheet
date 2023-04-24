@@ -41,4 +41,64 @@ f.Return total marks of the students with marks > 60  and afetr added 20 marks t
 
 20.what is closures?(prepNotes)
 21.what is lexical scope?(prepNotes)
-22.
+22.Guess Output : (RoadsideCoder jAVASCRIPT\Qns3.js)
+1.for(let  i = 0 ; i<5 ; i++){                 
+    setTimeout(()=>{                   
+        console.log(i)
+    },i * 1000)
+}
+2.for(var j = 0 ; j<5 ; j++){
+    setTimeout(()=>{
+        console.log(j)
+    },j * 1000)
+} 
+23.spread vs rest Parameter?(D:\PERSONAL INTERVIEW\Question5.js)
+24.Guess Output
+const fn = (a,...numbers,x,y) => {
+    console.log(x,y,numbers)
+   }
+
+   fn(2,3,4,6,8,10)
+25.Defination of callback function with example?(RdNotes)
+26.Arrow function vs Normal Function?(RdNotes) (tips:syntax,this,constructor and prototype,argumets keyword)
+27.Guess Output :
+let user  =  {
+    usename : 'Subhra',
+
+    rc1: () =>{
+      console.log(this.usename,"arrow")
+    },
+    rc2(){
+        console.log(this.usename,"normal")
+    }
+}
+user.rc1()
+user.rc2()
+28.Guess Output:
+
+//
+var a = 50;
+function pp() {
+  var x = 20;
+
+  function cc() {
+    console.log(x, a);
+  }
+  cc();
+}
+pp();
+//
+29.Guess output:
+
+//
+let c  = 0;
+
+(function print(){
+    if(c === 0){
+        let c = 1;
+        console.log(c)
+    }
+    console.log(c)
+})()
+//
+30.
