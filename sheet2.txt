@@ -1,0 +1,70 @@
+
+31.what is currying?with example?(RdNotes)
+32.why we whould use currying?(RdNotes)
+33.Implement Infinite currying  sum(1)(2)(3)(10)....(n)?
+34.Difference between closures and scope?(RdNotes8)
+
+//(D:\JAVSCRIPT\RoadsideCoder jAVASCRIPT\OBJECTS)
+35.GTO - 
+const p  = ((a)=>{
+ delete a;
+ return a;
+})(5)
+
+console.log(p)
+
+36.GTO - console.log([..."SUBHRA"])
+37.GTO 
+const a = { a: "K", b: 100 };
+const admin = { admin: true, ...a };
+
+console.log(admin);
+
+38.GTO-
+const setting = {
+    username : "P",
+    level : 19,
+    health : 90,
+}
+
+const data =  JSON.stringify(setting,["level", "health"]);
+
+console.log(data)
+
+39.GTO -
+let c  =  { greeting : "Hey!" }
+let d;
+
+d = c;
+c.greeting = "Hello";
+console.log(d.greeting)
+
+40.GTO -
+console.log({a : 1} == {a : 1});
+console.log({a : 1} === {a : 1});
+
+41.GTO-
+
+function change(person) {
+  person.age = 25;
+  person = {
+    name: "John",
+    age: 50,
+  };
+  return person;
+}
+
+const personOBj = {
+  name: "ALex",
+  age: 30,
+};
+
+const p2 = change(personOBj);
+
+console.log(personOBj);
+console.log(p2);
+
+42.Defination of OBJECTS?(RoadsideCoder jAVASCRIPT\OBJECTS\ob.js)
+43.How to add dynamic key value in Object?(ob2.js)
+
+
