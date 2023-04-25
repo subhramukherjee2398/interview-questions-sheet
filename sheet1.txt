@@ -101,4 +101,8 @@ let c  = 0;
     console.log(c)
 })()
 //
-30.
+30.Write a function for this?(RoadsideCoder jAVASCRIPT\Qns8.js)
+var addsix  =  createBase(6)
+
+addsix(10)  // return 16
+addsix(21)  // return 27
