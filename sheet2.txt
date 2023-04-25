@@ -66,5 +66,121 @@ console.log(p2);
 
 42.Defination of OBJECTS?(RoadsideCoder jAVASCRIPT\OBJECTS\ob.js)
 43.How to add dynamic key value in Object?(ob2.js)
+44.
+const p = {
+    a : "a",
+    b : "BB",
+    c : "CVN"
+}
+// Iterate through the Object using for In
+45.Explaim desturing with some exmaples?(D:\PERSONAL INTERVIEW\Question7.js)
+46.How to do nested desturing?(ob6)
+47.3 ways to clone an Object?(ob7)
+48.Object seal() vs Object freeze()?
+Ans:Object. freeze makes an object completely immutable, while Object. 
+seal allows existing properties to be modified, but prevents the addition and deletion of new properties.
 
+//(D:\JAVSCRIPT\RoadsideCoder jAVASCRIPT\THIS_KEY)
+49.GT0-
+const user = {
+    firstName:"Subhra",
+    getName(){
+      const firstName = "Mukherjee";
+      return this.firstName;
+    }
+}
+
+console.log(user.getName())
+50.GT0(t2)
+function makeUser(){
+    return {
+        name : "John",
+        ref : this
+    }
+}
+
+let user = makeUser();
+
+console.log(user.ref.name)
+51. Make the function return "John"
+52.GT0-(t3)
+const user = {
+    firstName:"Subhra",
+    logMsg(){
+      console.log(this.firstName)
+    }
+}
+
+setTimeout(user.logMsg,1000)
+
+52.How to Fixed it?(t3)
+53.GT0-
+var length = 4;
+
+function callback(){
+    console.log(this.length)
+}
+
+const obj = {
+    length: 5,
+    method(fn){
+      fn();
+    }
+}
+obj.method(callback)
+54.GT0-
+const age = 10;
+
+var person  =  {
+    name : "Subhra",
+    age : 20,
+    getAge: function(){
+        return this.age;
+    }
+}
+
+var person2 = {age : 24}
+console.log(person.getAge.call(person2))
+//(D:\JAVSCRIPT\RoadsideCoder jAVASCRIPT\CBA)
+55.GT0-
+var s = "1";
+
+setTimeout(() => {
+  const s = "2";
+
+  const data = {
+    s: "3",
+    getStatus() {
+      return this.s;
+    },
+  };
+  console.log(data.getStatus());
+  console.log(data.getStatus.call(this));
+}, 0);
+
+56.Append one array to another array using call/Bind/Apply?(D:\JAVSCRIPT\RoadsideCoder jAVASCRIPT\CBA\k4.js)
+56.find min and max in array using call/Bind/Apply?(D:\JAVSCRIPT\RoadsideCoder jAVASCRIPT\CBA\k5.js)
+57.GT0-(k6)
+function f(){
+    console.log(this)
+}
+
+let user = {
+    g: f.bind(null)
+};
+
+user.g()
+58.GT0-(k7)
+function f(){
+    console.log(this.name)
+ }
+
+ f = f.bind({name : "ANC"}).bind({name : "LLL"})
+ 59.Difference between Null,Undefined and not defined?
+ Ans:https://medium.com/technoetics/difference-between-null-undefined-and-not-defined-in-javascript-3a52a62894b
+
+ 60.
+console.log(null == undefined)  // false == false
+
+console.log(null === undefined)  // typeOf(null) {object} === typeof(undefined) {undefined} 
 
