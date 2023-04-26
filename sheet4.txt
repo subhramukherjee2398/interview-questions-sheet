@@ -1,0 +1,9 @@
+
+91.Is callback asynchronous by nature?if not how to make it asynchronous?
+92.What is Promise chaining?
+93.What is benefit of promise chaining? or How it is the solution for callback hell?
+94.what is Promsie.all ? Implement Promsie.all?
+
+ans : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
+
+95.

@@ -36,5 +36,5 @@ that is designed to make things easier to read or to express.
 88.What is Error First callback?(Qnskhata)
 89.What is callback Hell?(Qnskhata)
 90.Advantages of callback over Promises?(dpNotes)
-91.Is callback asynchronous by nature?if not how to make it asynchronous?
+
 
