@@ -1,0 +1,29 @@
+
+61.substring vs substr?(D:\JAVSCRIPT\Dipesh Js\Strings\s1.js)
+62.explain split method?
+62.explain replace method?
+63.what is type of Array?
+64.How to check a varible is Array is not?
+
+Ans : Array.isArray or ArrayName instanceof Array
+
+65.How to select a Dom element(both single and multiple element)?(dpNotes)
+66.What is benefit of using queryselectorAll(dpNotes)
+//(D:\JAVSCRIPT\Dipesh Js\ArrayMethods 13 + dpNotes)
+67.What is Find Method?
+68.Difference between find and Filter?
+69.What is FindIndex?
+70.Sort a array by it's value and name also?
+71.what is use of every?
+72.what is use of some?
+73.what is the difference between every and some?
+74.what is use of includes?
+75.Use of flat method?
+76.what is the benefit of Arrow function?
+77.what is the meaning of syntactic sugar?
+ans :In computer science, syntactic sugar is syntax within a programming language 
+that is designed to make things easier to read or to express.
+78.where we can't use arrow function?
+79.What is meaning of event?(newkhataNotes)
+80.What is Event bubling?(newkhataNotes)
+81.what is the use of stop propagation?(newkhataNotes)
