@@ -27,3 +27,14 @@ that is designed to make things easier to read or to express.
 79.What is meaning of event?(newkhataNotes)
 80.What is Event bubling?(newkhataNotes)
 81.what is the use of stop propagation?(newkhataNotes)
+82.what is single thread language?(dpNotes)
+83.What is multi thread lanaguage?
+84.what is the of synchronous?
+85.what is asynchronous operation?
+86.what is Promise?
+87.Is javascript asynchronous?How we can make is asynchronous?
+88.What is Error First callback?(Qnskhata)
+89.What is callback Hell?(Qnskhata)
+90.Advantages of callback over Promises?(dpNotes)
+91.Is callback asynchronous by nature?if not how to make it asynchronous?
+
