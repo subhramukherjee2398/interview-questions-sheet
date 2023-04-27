@@ -87,7 +87,7 @@ for (let item of myLife) {
   console.log(item);
 }
 //(Javascript by Interview.js\Video1\Video2)
-105.GTO-(p1)
+105.GTO-(p1-p11)
 console.log(!!null);
 console.log(!!'');
 console.log(!!1);
@@ -114,9 +114,129 @@ console.log(false || {} || null)
 console.log(false || null || '');
 console.log([] || 0 || false)
 console.log("" && 0)
-107.GTO-(p3)
+(()=>{
+    let x,y;
+    try{
+        throw new Error();
+    } catch (x){
+        (x =1),(y = 2);
+        console.log(x)
+    }
+    console.log(x)
+    console.log(y)
+})()
+(Javascript by Interview.js\Video1\Video3)
+107.GTO-(x1)
+let person = { name : "Kiran"}
 
-108.GTO-(p4)
+const members  = [person]
 
+person = null;
 
+console.log(members);
+108.GTO-(x2)
+let person = {name : "Kiran"}
 
+function helloBudyy(occupation){
+ return `${this.name} is working as ${occupation}`
+}
+
+console.log(helloBudyy.call(person,'engineer'))
+console.log(helloBudyy.bind(person,'engineer'))
+109.GTO-(x3)
+function check(data){
+    if(data === {occ : 'engineer'}){
+        console.log('You are an engineer ')
+    }
+    else if(data == {occ : 'engineer'}){
+         console.log("You are still an enginner")
+    }
+    else{
+        console.log("You dont work")
+    }
+}
+
+(check({occ : 'engineer'}))
+110.(x5)
+function getPersonInfo(one,two,three){
+    console.log(one,two,three)
+}
+
+const person  = "Kiran"
+const occ = 'Engineer'
+
+getPersonInfo`${person} is working as ${occ}`;
+//(Javascript by Interview.js\Video1\Video4)
+111.(L1)
+let random = { person : 'ABC' }
+random = 23;
+
+if(!typeof random === 'string'){
+    console.log('Its a string...')
+}else{
+    console.log('itsnot String...')
+}
+112.(L2)
+const user  = {
+    email : 'myemail@',
+    updateEmail:(email) =>{
+        this.email = email;
+    }
+}
+
+user.updateEmail('newemal@.com')
+console.log(user.email)
+//(Javascript by Interview.js\Video1\Most Asked)
+113.GTO-(PB1)
+function foo(){
+    return {
+        bar : 'hello'
+    }
+}
+
+function foo2(){
+    return 
+    {
+        bar : 'hello'
+    }
+}
+
+console.log(foo())
+console.log(foo2())
+114.GTO-(pb2)
+console.log(0.1 + 0.2 === 0.3)
+115.Write a function to check palindrom or not(pb3)
+116.(pb4)
+console.log(sum(2, 3));
+console.log(sum(2)(3));
+
+write a common for both 
+117.(pb5)
+console.log(1 + "2" + "2")
+console.log( 1 +  +"2" + "2")
+console.log(1 + -"1" + "2")// -"1" = -1
+console.log(+"1" + "1" + "2")
+console.log("A" - "B" + "2") //NAN2 for alphabets
+console.log( 'A' - "B" + 2) //NAN
+
+118.(Javascript by Interview.js\Video1\Most asked qns)
+var a1 = "jonh".split("");
+
+var a2 = a1.reverse();
+
+var a3 = "jones".split("");
+
+a2.push(a3);
+
+console.log(a1.length);
+console.log(a1.slice(-1))
+console.log(a2.length)
+console.log(a2.slice(-1))
+
+119.(k2)
+console.log("0 || 1 = " + (0 || 1)); 
+console.log("1 || 2 = "+(1 || 2));  
+
+120.(k2)
+console.log("0 && 1 =" +(0 && 1)); 
+console.log("1 && 2="+(1 && 2)); 
