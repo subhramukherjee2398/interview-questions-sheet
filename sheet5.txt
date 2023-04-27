@@ -1,0 +1,29 @@
+(Javascript by Interview.js\Video1\Prototypes)
+121.Explain protoType Chain?(pt.js)
+122.GTO-(pt2)
+String.prototype.giveMeonePizza = () =>{
+    return 'Just Give me One Pizza'
+}
+
+const name = 'kiran';
+
+console.log(name.giveMeonePizza())
+123.Difference between __proto__ vs Prototype?(pt3)
+124.GTO-(pt4)
+class Dog{
+    constructor(name){
+        this.name = name;
+    }
+}
+
+Dog.prototype.bark = function(){
+    console.log(`Woo I am ${this.name}`)
+}
+
+const pet = new Dog('Mara');
+
+pet.bark();
+delete Dog.prototype.bark;
+pet.bark();
+125.Classical I heritence vs protoTypal Inheritence?(pt5)
+126.
