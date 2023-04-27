@@ -6,4 +6,117 @@
 
 ans : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
 
-95.
+95.what is Promise Race?
+ans : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
+96.What is callback?
+97.GTO-(Javascript by Interview.js\Video1\v1.js)
+function getAge() {
+  "use strict";
+   age = 21;
+  console.log(age);
+}
+
+getAge();
+98.GTO-(Javascript by Interview.js\Video1\v2.js)
+const obj = {
+    a : "one",
+    b : "two",
+    a : "three"
+}
+
+console.log(obj)
+99.GTO-(Javascript by Interview.js\Video1\v3.js)
+const a  = {}
+const b = {key : 'b'}
+const c  = {key : 'c'}
+
+a[b] = 123
+a[c] = 456
+console.log(a[b])
+100.GTO-(v4.js)
+function sayHi(){
+    return (()=>0)()
+}
+
+console.log(typeof sayHi() )
+101.GTO-(v5)
+const value = {number : 10}
+
+const multiply = (x = {...value}) =>{
+     console.log((x.number *= 2))
+}
+
+multiply()
+multiply()
+multiply(value)
+multiply(value)
+102.GTO-(v6)
+const person  = {name : 'kiran'}
+
+Object.seal(person)
+
+person.age = 23;
+delete person.name;
+person.name = "HHHHHH"
+
+console.log(person)
+103.GTO-(v7)
+const person = {
+    name : "SUbhra",
+    hobbies : ['coding'],
+}
+
+function addHobby(hobby, hobbies = person.hobbies){
+    hobbies.push(hobby);
+    console.log(hobbies)
+    return hobbies;
+}
+
+addHobby('running',[]);
+addHobby('dancing');
+addHobby('baking',person.hobbies);
+
+console.log(person.hobbies);
+104.GTO-(v8)
+const myLife = [" a", "b", "c", "d"];
+
+for (let item in myLife) {
+  console.log(item);
+}
+for (let item of myLife) {
+  console.log(item);
+}
+//(Javascript by Interview.js\Video1\Video2)
+105.GTO-(p1)
+console.log(!!null);
+console.log(!!'');
+console.log(!!1);
+console.log(!'Subhra')
+console.log(0)
+console.log(new Number(0))
+console.log(+true)
+console.log(+false)
+106.GTO-(p2)
+console.log(+true)
+console.log(+false)
+console.log(eval('10*10+5'))
+console.log(3+4+'5')
+console.log(parseInt('7*6',10))
+console.log(parseInt('7F6',16))
+console.log(Number(2) === Number(2))
+console.log(Boolean(true) === Boolean(true))
+console.log(Symbol("ABC") === Symbol("ABC"))
+console.log(`Hello\nWorld`)
+console.log(String.raw`Hello\nWorld`)
+console.log('I want ICecream'[0])
+console.log('I want ICecream'.charAt(0))
+console.log(false || {} || null)
+console.log(false || null || '');
+console.log([] || 0 || false)
+console.log("" && 0)
+107.GTO-(p3)
+
+108.GTO-(p4)
+
+
+
