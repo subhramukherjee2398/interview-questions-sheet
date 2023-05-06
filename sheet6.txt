@@ -159,4 +159,4 @@ p.then(null,function(err){
 177.Given two strings, how can you check if the strings are anagram for each other?
 178.Given an array of strings, reverse each word in the sentence?(Qns19)
 179.How to check if an object is present in an Array or not?(Qns20)
-180.How to empty an array?
+180.How to empty an array?(Qns21)
