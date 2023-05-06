@@ -145,3 +145,27 @@ runPromises().then(res=>console.log(res)).catch(err=>err);
 143.Difference between strict mode and Non-strict Mode?(PrepNotes)
 144.Defination of Call apply and Bind?(PrepNotes)
 145.What is setTimeout with example?()
+ans : https://developer.mozilla.org/en-US/docs/Web/API/setTimeout
+146.What is setInterval?
+ans : https://developer.mozilla.org/en-US/docs/Web/API/setInterval
+147.What is clearInterval?
+ans: https://developer.mozilla.org/en-US/docs/Web/API/clearInterval
+148.what are the truthy and falsy values?(PrepNotes)
+149.Shollow Copy vs Deep Copy?(newkhataNotes)
+150.GTO-(PepCoding Javascript\Coding questions\Qns1.js)
+
+console.log("v",varname);
+var varname;
+console.log("v",varname);
+varname = "Captain"
+console.log("v",varname)
+Fn()
+function Fn(){
+    console.log("Hello from fn");
+}
+Fn() 
+FnContainer()
+var FnContainer = function(){
+    console.log("I am expression...")
+}
+FnContainer()
