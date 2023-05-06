@@ -26,4 +26,122 @@ pet.bark();
 delete Dog.prototype.bark;
 pet.bark();
 125.Classical I heritence vs protoTypal Inheritence?(pt5)
-126.
+126.GTO - (pt6)
+function give(){
+    return "Here Pizza"
+}
+
+const giveMeHey = () =>{
+  "Here is give Me more ..."
+}
+
+console.log(give.prototype);
+console.log(giveMeHey.prototype)
+127.How to get and set prototype of an Object?(pt7)
+128.How to create a new Object with protoType?(pt8)
+129.GTO-(Q1)
+const FirstPromisme = new Promise((res,rej)=>{
+    setTimeout(res,500,'one')
+})
+
+const SecondPromisme = new Promise((res,rej)=>{
+    setTimeout(res,100,'two')
+})
+
+Promise.race([FirstPromisme,SecondPromisme]).then((res)=>console.log(res))
+130.GTO - (Q2)
+async function getData(){
+    return await Promise.resolve('I made it');
+}
+const data  = getData();
+console.log(data)
+131.GTO - (Q3)
+const myPromise = () => Promise.resolve('I have resolved')
+
+function firstFunc(){
+ myPromise().then((res)=>{
+     console.log(res);
+ })
+ console.log('first');
+}
+
+async function secondFunc(){
+    console.log(await myPromise());
+    console.log('second')
+}
+
+firstFunc()
+secondFunc()
+132.GTO- (Q4)
+console.log(Promise.resolve(5))
+133.GTO - (Q5)
+async function* range(start,end){
+    for(let i = start ; i<= end ; i++){
+        yield Promise.resolve(i)
+    }
+}
+
+(async()=>{
+    const gen = range(1,3);
+    for await (const item of gen){
+        console.log(item)
+    }
+})();
+134.GTO - (Q6)
+const myPromise = Promise.resolve("Heyaa");
+
+(async()=>{
+    try{
+        console.log(await myPromise)
+    }
+    catch {
+        throw new Error('ALSSS')
+    }finally {
+        console.log("Yeahh !!")
+    }
+})();
+135.GTO - (Q7)
+
+const myPromise = Promise.resolve(Promise.resolve("promise!"))
+
+function funcOne(){
+    myPromise.then(res=>res).then(res=>console.log(res))
+    setTimeout(()=>console.log('Timeout !'),0)
+    console.log('Last Line')
+}
+
+async function funcTwo(){
+    const res = await myPromise;
+    console.log(await res)
+    setTimeout(()=>console.log('Timeout !'), 0)
+    console.log('Last Line')
+}
+
+funcOne()
+funcTwo()
+
+136.GTO - (Q8)
+
+const promise1 = Promise.resolve("First")
+const promise2 = Promise.resolve("Second")
+const promise3 = Promise.resolve("Third")
+const promise4 = Promise.resolve("Fourth")
+
+const runPromises  = async () =>{
+    const res1 = await Promise.all([promise1,promise2])
+    const res2 = await Promise.all([promise3,promise4])
+    return [res1,res2]
+}
+
+
+runPromises().then(res=>console.log(res)).catch(err=>err);
+
+137.What is Block scope?(PrepNotes)
+138.What is Temporary dead zone(PrepNotes)
+139.What is Function?(PrepNotes)
+140.What is Pure function with example?(PrepNotes)
+141.What is High Order function?(PrepNotes)
+142.What is Polyfill?(PrepNotes)
+143.Difference between strict mode and Non-strict Mode?(PrepNotes)
+144.Defination of Call apply and Bind?(PrepNotes)
+145.What is setTimeout with example?()
