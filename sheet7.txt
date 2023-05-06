@@ -19,4 +19,6 @@
 198.how to find even or odd numbers in array in javascript(Qns5)
 199.How to find fictorial of a given number in javascript(Qns7)
 200.how to find prime number in javascript(Qns8)
-201.
+201.ow to find vowels from string in javascript(Qns9)
+202.how to swap two variables without using the third(Qns10)
+203.compare two Arrays are Equal or Not in JavaScript?(Qns15)
