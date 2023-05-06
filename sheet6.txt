@@ -1,0 +1,145 @@
+
+151.GTO-(Qns2)
+
+console.log("carname",carname);
+var carname = 10;
+console.log("carname",carname);
+function FNCO(){
+    console.log("FNCO",carname)
+}
+
+function fn(){
+    console.log("carname",carname);
+    var carname = "50000"
+    function fn22(){
+        console.log("carname fn22",carname);
+        var carname = "nothing"
+        
+    }
+    fn22()
+    FNCO()
+    console.log("carname",carname);
+} 
+fn()
+
+152.GTO-(Qns3)
+
+var a   = 10 ;
+console.log("line-2",a);
+function fn(){
+    console.log("line-4",a)
+    var a = 20;
+    a++;
+    console.log("line-7",a)
+    if(a){
+        var a = 30;
+        a++;
+        console.log("line-11",a)
+    }
+    console.log("line-13",a)
+}
+fn();
+
+153.GTO - (Qns4)
+
+console.log("hello")
+console.log("var",varName)
+let varName;
+
+154.GTO - (Qns5)
+
+let fruits = "orange"
+console.log("ff",fruits)
+{
+    
+   let fruits;
+   console.log("fb",fruits);
+   fruits = "apple"
+   console.log("fb",fruits);
+}
+console.log("ff",fruits)
+
+154.GTO - (D:\JAVSCRIPT\PepCoding Javascript\Events_Loop\Async & await Interview qns)
+
+async function inc(x) {
+  x = x + (await 1);
+  return x;
+}
+
+async function increment(x) {
+  x = x + 1;
+  return x;
+}
+
+inc(1).then(function (x) {
+  increment(x).then(function (x) {
+    console.log(x);
+  });
+});
+
+155.GTO - (int2)
+
+async function f1(){
+    console.log(1)
+}
+
+async function f1(){
+    console.log(2)
+}
+
+console.log(3)
+f1()
+console.log(1)
+f2()
+
+async function f2(){
+    console.log("Goo!")
+}
+
+156.GTO-(int3)
+
+
+function resolveAfterNSeconds(n,x){
+    return new Promise(resolve=>{
+        setTimeout(()=>{
+            resolve(x)
+        },n)
+    })
+}
+//* alspo how much time it will take * /
+(function(){
+    
+    let a = resolveAfterNSeconds(1000,1)
+  // console.log(a)
+    a.then(async function(x){
+        let y  = await resolveAfterNSeconds(2000,2)
+        let z  = await resolveAfterNSeconds(1000,3)
+        let p = resolveAfterNSeconds(2000,4)
+        let q = resolveAfterNSeconds(1000,5)
+        console.log(x+y+z+await p + await q);
+    })
+})()
+
+157.Promise Polyfills(Na)
+158.Create setTimeout with Promise(Na)
+159.GTO
+let p = new Promise(function(resolve,reject){
+    reject(new Error("some Error"))
+    setTimeout(function(){
+        reject(new Error("some Error"))
+    },1000)
+    reject(new Error("somne Error"))
+
+})
+p.then(null,function(err){
+    console.log(1)
+    console.log(err)
+}).catch(function(err){
+    console.log(2)
+    console.log(err)
+})
+
+160.Explain call apply bind with example(callex1,2,3,apply,bind)
+161.Polyfill for Bind?(Na)
+162.constructor exmaple?(constructor.js)
+163.class example with inheritence?(class.js)
