@@ -1,0 +1,22 @@
+
+181.How do you sort and reverse an array without changing the original array?(Qns22)
+182.Write a function to check if a given string is Palindrome or not?(Qns23)
+183.How can you combine two Arrays into a third Array using spread operator?(Qns24)
+184.How can you Insert an element at a specific index in an Array?(Qns26)
+185.How can you Replace an element at a specific index in an Array?(Qns27)
+186.How can you Delete an element at a specific index in an Array?(Qns28)
+187.How can you delete a specific element?(Qns29)
+188.How do you clone an Object?(Qns30)
+189.How do you add an element at the beginning of an array?(Qns31)
+190.How to remove an element from the end of the array?(Qns32)
+191.How can you split a string into an Array?(Qns33)
+192.How can you remove an element from the beginning of the array?(Qns34)
+193.How can you add an element to an object with and without modifing the old object?(Qns35)
+194.How can you replace an existing element in an object?
+195.How can you combine two objects?(Qns37)(with spread and Object assign)
+196.How To find second Largest value in array?(JS_CODING_CHALLENGES\Veteran Code\Qns3.js)
+197.How to Find missing elements in a given Array 1 to 10(Qns4)
+198.how to find even or odd numbers in array in javascript(Qns5)
+199.How to find fictorial of a given number in javascript(Qns7)
+200.how to find prime number in javascript(Qns8)
+201.
