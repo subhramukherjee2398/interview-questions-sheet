@@ -3,6 +3,7 @@
 2.what is Varible legal and ilegal shawdoing? (prepNotes) 
 3.What is the initializer of const?
 4.what is execution context?(prepNotes)
+ans : https://www.youtube.com/watch?v=ByhtOgF6uYM
 5.what is Hoisting?(prepNotes)
 6.what is scope?(RdNotes)
 7.Defination of Map method with example?(RdNotes)
