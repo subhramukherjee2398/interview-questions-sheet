@@ -1,58 +1,6 @@
 
 1. What is the difference between var, let, and const? (prep notes)
-Ans: In JavaScript, `var`, `let`, and `const` are used to declare variables, but they have key differences in scope, reassignability, and hoisting behavior:
-
-### 1. **Scope:**
-
-- **`var`:**
-  - Has **function scope**. Variables declared with `var` are scoped to the function they are declared in, or globally if declared outside of a function.
-  - Can be accessed from outside a block (like `if` or `for`), which can lead to unexpected behaviors.
-
-- **`let`:**
-  - Has **block scope**. Variables declared with `let` are only accessible within the block (`{}`) they are defined in, like in loops, if-statements, etc.
-  - This reduces the risk of unintended behavior by limiting the variable's accessibility.
-
-- **`const`:**
-  - Like `let`, `const` also has **block scope**.
-
-### 2. **Reassignability:**
-
-- **`var`:**
-  - Variables declared with `var` can be reassigned.
-  
-- **`let`:**
-  - Variables declared with `let` can also be reassigned.
-
-- **`const`:**
-  - Variables declared with `const` **cannot be reassigned** once initialized. However, if it's an object or array, you can still modify the properties or elements of that object or array (but you cannot reassign the entire object/array).
-
-### 3. **Hoisting:**
-
-- **`var`:**
-  - Variables declared with `var` are **hoisted** to the top of their scope, meaning they can be used before their declaration, though they will be initialized with `undefined` until the line where the variable is declared.
-
-- **`let` and `const`:**
-  - Variables declared with `let` and `const` are also **hoisted**, but they are in a "temporal dead zone" from the start of the block until their declaration, meaning they cannot be accessed before they are declared.
-
-### Example:
-
-```javascript
-console.log(a); // undefined
-var a = 10;
-
-console.log(b); // ReferenceError: Cannot access 'b' before initialization
-let b = 20;
-
-const c = 30;
-c = 40; // TypeError: Assignment to constant variable.
-```
-
-In summary:
-- **Use `var`** only if you're dealing with older code or need function-scoped variables.
-- **Use `let`** for variables that will change.
-- **Use `const`** for variables that should not be reassigned.
-----------------------------------------------------------------------------------------------------------------------------------------------------
-2.what is Varible legal and ilegal shawdoing? (prepNotes)
+2.what is Varible legal and ilegal shawdoing? (prepNotes) 
 3.What is the initializer of const?
 4.what is execution context?(prepNotes)
 5.what is Hoisting?(prepNotes)
